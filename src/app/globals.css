@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* globals.css */
+
+.dark {
+    --bg-color: #111827; /* Ana arka plan rengi */
+    --text-color: #F3F4F6; /* Ana metin rengi */
+    --border-color: #374151; /* Sınır rengi */
+  }
+  
+  .dark .prose,
+  .dark .prose-dark {
+    color: var(--text-color); /* Markdown içeriğinin metin rengi */
+  }
+  
+  /* İsteğe bağlı: Özel bileşen stil tanımlamaları */
+  .dark .theme-toggle {
+    /* Dark mode için tema değiştirici bileşenin özel stilleri */
+  }
+  
